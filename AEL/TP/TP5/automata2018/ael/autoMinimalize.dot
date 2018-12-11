@@ -1,0 +1,4 @@
+digraph Automaton { 
+  rankdir = LR
+  0 [label="{{q1_at,q0_create,q2_cry}}",peripheries=2];}
+

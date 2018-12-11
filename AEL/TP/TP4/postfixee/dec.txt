@@ -1,0 +1,14 @@
+42 -42 +
+
+42 42 -
+
+42 42 *
+
+42 42 /
+
+42 opp
+
+alpha42
+
+cest#un59 comment1#
+<!- comment3 ->

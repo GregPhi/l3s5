@@ -1,0 +1,19 @@
+digraph Automaton { 
+  rankdir = LR
+  0 [label="q0_epsilon"];  1 [label="q0_a"];  2 [label="q0_az"];  3 [label="q0_aze",peripheries=2];  4 [label="q1_epsilon"];  5 [label="q1_q"];  6 [label="q1_qs"];  7 [label="q1_qsd",peripheries=2];  8 [label="q2_epsilon"];  9 [label="q2_w"];  10 [label="q2_wx"];  11 [label="q2_wxc",peripheries=2];  start4 [style=invis]
+  start4 -> 4[color="black:white:black"]
+  start8 [style=invis]
+  start8 -> 8[color="black:white:black"]
+  start0 [style=invis]
+  start0 -> 0[color="black:white:black"]
+  0 -> 1 [label = "a" ]
+  0 -> 1 [label = "q" ]
+  0 -> 1 [label = "w" ]
+  1 -> 2 [label = "s" ]
+  1 -> 2 [label = "x" ]
+  1 -> 2 [label = "z" ]
+  2 -> 3 [label = "c" ]
+  2 -> 3 [label = "d" ]
+  2 -> 3 [label = "e" ]
+}
+

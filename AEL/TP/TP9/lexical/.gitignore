@@ -1,0 +1,14 @@
+/AbstractToken.class
+/And.class
+/CloseBracket.class
+/Constant.class
+/EndOfData.class
+/Ident.class
+/LexicalException.class
+/Not.class
+/OpenBracket.class
+/Operator.class
+/Or.class
+/TokenType.class
+/Yylex.class
+/Yytoken.class

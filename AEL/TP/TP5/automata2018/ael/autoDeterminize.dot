@@ -1,0 +1,9 @@
+digraph Automaton { 
+  rankdir = LR
+  0 [label="q_epsilon"];  1 [label="q_a",peripheries=2];  start0 [style=invis]
+  start0 -> 0[color="black:white:black"]
+  0 -> 1 [label = "a" ]
+  1 -> 1 [label = "a" ]
+  1 -> 1 [label = "b" ]
+}
+
