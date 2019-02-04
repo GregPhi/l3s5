@@ -1,0 +1,5 @@
+Fichier reponse
+
+1.1)
+Les fonctions a1() et a2() seront appelés avant les fonctions b1() et b2()
+
